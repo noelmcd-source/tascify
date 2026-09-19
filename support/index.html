@@ -58,7 +58,7 @@ tasks needed.</p>
   <li>On your phone, sign in with your email (you'll get a one-time code — there's no password).</li>
   <li>Add your child and pick a few tasks to start with.</li>
   <li>Install Tascify on your child's phone and enter the pairing code shown on your screen.</li>
-  <li>On your child's phone, allow Screen Time access when iOS asks, and choose which apps to lock.</li>
+  <li>On your child's phone, allow Screen Time access when iOS asks — a quick Face ID, or just the phone's passcode if it has no Face ID, so older hand-me-down phones work fine — and choose which apps to lock.</li>
   <li>Before you hand the phone back, set your grown-up PIN: tap <strong>Grown-ups</strong> (top right of your child's screen) and choose 4 digits only you know. It protects the app list so your child can't change what earning unlocks.</li>
 </ul>
 
@@ -75,23 +75,25 @@ Face&nbsp;ID. We recommend keeping Ask to Buy on anyway — it also stops new
 apps (like a second browser) arriving without your say-so.</p>
 
 <h3>The apps aren't actually locking. Why?</h3>
-<p>This is the most common issue, and it's almost always the same cause. Real app-locking uses
-Apple's Screen Time system, and Apple only lets an app lock a child's device when that device is
-signed into a <strong>child Apple ID that belongs to your Family Sharing group</strong>. If your
-child's phone uses a standalone Apple ID that isn't in your family, iOS won't allow the lock —
-that's Apple's rule, not ours.</p>
-<p>To fix it: on your iPhone, open <strong>Settings → Family</strong> and make sure your child is
-listed as a child member. If they're currently on their own Apple ID, Apple's support pages walk
-through moving them into your family. Email me if you get stuck — I'll talk you through it.</p>
+<p>Tascify no longer needs Apple Family Sharing or a child Apple ID — it works right on your
+child's phone on its own. So if apps aren't locking, it's almost always one of two things:</p>
+<ul>
+  <li><strong>Screen Time access wasn't granted.</strong> During setup on your child's phone,
+  Tascify asks for Screen Time permission (a quick Face ID, or the phone's passcode). If that was
+  skipped or declined, nothing can lock. Re-run setup on your child's phone and allow it.</li>
+  <li><strong>No apps were chosen.</strong> In setup you pick which apps to lock — whole categories
+  work best, and add Safari. If nothing was selected, there's nothing to lock.</li>
+</ul>
+<p>Still stuck? Email me and I'll talk you through it.</p>
 
 <h3>Can I see which apps my child uses?</h3>
 <p>No, and neither can we. Apple deliberately hides that from apps like Tascify — we only ever
 receive an anonymous code for the set of apps you chose to lock, never their names or your child's
 usage. That limitation is also exactly why Tascify can promise your child's activity stays private.</p>
 
-<h3>Are photos of finished tasks uploaded anywhere?</h3>
-<p>Never. If your child photographs a completed task, the photo stays on their phone and is deleted
-once you've approved or declined it. We have no photo storage.</p>
+<h3>Does Tascify take or upload any photos?</h3>
+<p>No. Tascify doesn't take photos of your child or their tasks, and we have no photo storage of
+any kind. Your child marks a task as done and you approve it — that's it.</p>
 
 <h3>Can earned minutes be taken away?</h3>
 <p>No — by design. Minutes your child has earned are theirs to keep, like pocket money. You control
@@ -100,17 +102,17 @@ already earned. If you lower the daily free allowance, the change applies from t
 nothing your child is counting on today disappears.</p>
 
 <h3>Can my child just delete Tascify to get around it?</h3>
-<p>No — and it's Apple itself that stops them. While Tascify holds Screen Time access,
-iOS shows <em>"Uninstall Not Allowed — deleting the app will require parental or guardian
-approval"</em> and demands a parent's Apple Account password before anything happens. The
-same is true for switching off Tascify's Screen Time access in Settings. This works even
-if "Allow deleting apps" is switched on in Screen Time — we've tested it. Your child
-cannot uninstall or disable Tascify without you.</p>
+<p>Not once you've locked it down — and it's Apple's own Screen Time that stops them. On your
+child's phone, set a <strong>Screen Time passcode only you know</strong>, and turn off app
+deletion (<strong>Settings → Screen Time → Content &amp; Privacy Restrictions → iTunes &amp; App
+Store Purchases → Deleting Apps → Don't Allow</strong>). Tascify walks you through this in its
+"lock it down" step. With those on, Tascify can only be moved off the home screen — never actually
+deleted — and Screen Time can't be switched off without your passcode. We've tested it.</p>
 
 <h3>How do I remove Tascify from my child's phone completely?</h3>
 <p>It's a two-step, by Apple's design: first, on your child's phone, go to
 <strong>Settings → Screen Time → Apps With Screen Time Access</strong> and switch Tascify
-off (you'll be asked for a parent's Apple Account password). Any app locks lift
+off (you'll be asked for your Screen Time passcode, if you set one). Any app locks lift
 immediately. Then delete the app normally. If you're leaving us, we'd love to know why —
 <a href="mailto:hello@tascify.ie">hello@tascify.ie</a> — and don't forget you can erase
 your family's data first with Delete account in the parent dashboard.</p>
